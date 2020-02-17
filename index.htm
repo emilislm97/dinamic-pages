@@ -1,0 +1,35 @@
+    <!DOCTYPE html>
+    <html lang="en">
+
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Change screen</title>
+        <link rel="stylesheet" href="style.css" />
+    </head>
+
+<body >
+
+    <form id="giris" action="indexc.htm">
+
+        <label for="opacity">Şəkilləri şəfaflığı</label><br />
+        <input type="range" min="0" max="1" step="0.01" oninput="seffaf()" value="1" id="opacity" />
+        <br />
+
+        <label for="rad">Şəkil kənarları</label><br />
+        <input type="range" min="0" max="50" step="1" oninput="radius()" value="0" id="rad" />
+        <br />
+
+
+        <label for="br">Menyu yeri</label><br />
+        <input type="radio" name="yer" onclick="yeri('left')" />Sol
+        <input type="radio"  name="yer" onclick="yeri('right')" />Sağ
+        <br />
+
+    </form>`
+
+    <script src="1.js"></script>
+
+</body>
+
+</html>
