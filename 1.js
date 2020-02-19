@@ -20,27 +20,11 @@
                 break;
             }
         }
+
+        for(let i = 0; i<=7; i++){
+        document.getElementsByClassName("img1")[i].style.opacity = localStorage.getItem("acar");
+        document.getElementsByClassName("img1")[i].style.borderRadius = localStorage.getItem("acar1");
+    }
         document.getElementById("nav").style.order= localStorage.getItem("acar3");
-    
 
-        document.getElementById("img1").style.opacity = localStorage.getItem("acar");
-        document.getElementById("img2").style.opacity = localStorage.getItem("acar");
-        document.getElementById("img3").style.opacity = localStorage.getItem("acar");
-        document.getElementById("img4").style.opacity = localStorage.getItem("acar");
-        document.getElementById("img5").style.opacity = localStorage.getItem("acar");
-        document.getElementById("img6").style.opacity = localStorage.getItem("acar");
-        document.getElementById("img7").style.opacity = localStorage.getItem("acar");
-        document.getElementById("img8").style.opacity = localStorage.getItem("acar");
-
-        document.getElementById("img1").style.borderRadius = localStorage.getItem("acar1");
-        document.getElementById("img2").style.borderRadius = localStorage.getItem("acar1");
-        document.getElementById("img3").style.borderRadius = localStorage.getItem("acar1");
-        document.getElementById("img4").style.borderRadius = localStorage.getItem("acar1");
-        document.getElementById("img5").style.borderRadius = localStorage.getItem("acar1");
-        document.getElementById("img6").style.borderRadius = localStorage.getItem("acar1");
-        document.getElementById("img7").style.borderRadius = localStorage.getItem("acar1");
-        document.getElementById("img8").style.borderRadius = localStorage.getItem("acar1");
-
-        document.getElementById("nav").style.order= localStorage.getItem("acar3");
-        
-
+   
